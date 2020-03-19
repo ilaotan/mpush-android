@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initPush(String allocServer, String userId) {
         //公钥有服务端提供和私钥对应
-        String publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCghPCWCobG8nTD24juwSVataW7iViRxcTkey/B792VZEhuHjQvA3cAJgx2Lv8GnX8NIoShZtoCg3Cx6ecs+VEPD2fBcg2L4JK7xldGpOJ3ONEAyVsLOttXZtNXvyDZRijiErQALMTorcgi79M5uVX9/jMv2Ggb2XAeZhlLD28fHwIDAQAB";
+        String publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUI2ikcv1uX5IPYSGuKzV0L+s6DOuU4hwK0LWJZc1IMLnOmsEAgm02RpX0hMYNwv9/7mgPBQw/oDiWuT+yB9vVfOSogCSSAA+rCaXrt0WhLkYsndw+STX0/Lg56fHDv5S/CIOh9Mc4em0TmFyhiXb59SMfUtS/9U99AvR8K4TLLwIDAQAB";
 
         ClientConfig cc = ClientConfig.build()
                 .setPublicKey(publicKey)

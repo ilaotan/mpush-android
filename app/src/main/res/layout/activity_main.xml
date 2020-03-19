@@ -30,8 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="alloc服务接口地址ip:port"
-            android:text="http://103.246.161.44:9999" />
-
+            android:text="http://172.32.3.252:9999" />
+        <!--android:text="http://172.16.100.134:9999" />-->
     </LinearLayout>
 
     <LinearLayout
